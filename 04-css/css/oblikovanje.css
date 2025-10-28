@@ -65,3 +65,7 @@ h2 {
 .slika p:last-child {
     font-size: 0.8em;
 } /*zmanjšala se je velikost povezave https... */
+
+a::before {
+  content: "🔗";
+}
