@@ -11,7 +11,7 @@
 - *Prilepi* vsebino odložišča: Ctrl+V
 - Odpri predogled datoteke na VScode: Ctrl+Shift+v
 - znak ` : AltGr+7
--
+- znak \ : AltGr + W
 
 <!-- 2. nivojski razdelek -->
 ## Izvorna koda
