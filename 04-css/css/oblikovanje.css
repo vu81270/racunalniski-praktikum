@@ -52,9 +52,16 @@ h2 {
     text-align: left;
     float: right;
     margin-left: 2em;
+    /*deluje ma celotnem območju slike in okolici slike*/
 }
 .slika img {
     width: 100%;
     height: auto;
-
+    border-style: dotted;
+    border-color: rgb(51, 0, 102, 0,3);
+    border-radius: 50%;
+/*deluje le na sliki*/
 }
+.slika p:last-child {
+    font-size: 0.8em;
+} /*zmanjšala se je velikost povezave https... */
