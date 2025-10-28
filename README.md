@@ -1,4 +1,4 @@
-# RaČunalniški praktikum
+# Računalniški praktikum
 alt + tab = odpri drugo (že odprto) okno <br>
 ctrl + o = odpri datoteko <br>
 ctrl + shift + n = ustvari novo mapo<br>
