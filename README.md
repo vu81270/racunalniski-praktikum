@@ -19,4 +19,7 @@ insert = tipkaj in zamenjuje že prej obstoječi tekst z novim<br>
 ctrl + alt + puščica navzdol= doda cursorje<br>
 ctrl + shift + L = doda cursorje enakim besedam<br>
 ctrl + shift + V = na VSC odpre preview datoteke <br>
- altgr + 7 = `
+ altgr + 7 = `<br>
+
+ spletna stran, 5.domača naloga: <br>
+file:///C:/Users/uporabnik/Documents/racunalniski-praktikum/racunalniski-praktikum/03-html/stran.html
