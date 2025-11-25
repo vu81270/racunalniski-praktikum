@@ -6,11 +6,11 @@
 
 	Za prosojnice je značilna uporaba okolja \texttt{frame},
 	s katerim definiramo posamezno prosojnico,
-	%
+	\pause
 	postopno odkrivanje prosojnic,
-	%
+	\pause
 	ter nekateri drugi ukazi, ki jih najdemo v paketu \texttt{beamer}.
-	%
+	\pause
 	\begin{exampleblock}{Primer}
 		Verjetno ste že opazili, da za naslovno prosojnico niste uporabili
 		ukaza \texttt{maketitle}, ampak ukaz \texttt{titlepage}.
@@ -20,12 +20,17 @@
 \begin{frame}{Poudarjeni bloki}
 	% Naloga 2.3.2:
 	% Oblikujte poudarjena bloka z opombo in opozorilom.
-
+	\begin{block}{Opomba}
+	
 		Okolja za poudarjene bloke so \texttt{block}, \texttt{exampleblock} in \texttt{alertblock}.
+	\end{block}
+	\begin{alertblock}{Pozor!}
 
 		Začetek poudarjenega bloka (ukaz \texttt{begin}) vedno sprejme 
 		dva parametra: okolje in naslov bloka.
 		Drugi parameter (za naslov) je lahko prazen. 
+	\end{alertblock}
+
 
 \end{frame}
 
@@ -43,10 +48,10 @@
 	   	% S pomožnim parametrom <+-> lahko določimo, da se bodo 
 		% elementi naštevanja odkrivali postopoma.
 	   \begin{itemize}
-		  \item Naj bo $p$ \alert{največje} praštevilo.
-		  \item Naj bo $q$ produkt števil $1$, $2$, \ldots, $p$.
-		  \item Število $q+1$ ni deljivo z nobenim praštevilom, torej je $q+1$ praštevilo.
-		  \item To je protislovje, saj je $q+1>p$. \qedhere
+		  \item<1-> Naj bo $p$ \alert{največje}<4-> praštevilo.
+		  \item<2-> Naj bo $q$ produkt števil $1$, $2$, \ldots, $p$.
+		  \item<3-> Število $q+1$ ni deljivo z nobenim praštevilom, torej je $q+1$ praštevilo.
+		  \item<4-> To je protislovje, saj je $q+1>p$. \qedhere
 	   \end{itemize}
 	\end{proof}
  \end{frame}
