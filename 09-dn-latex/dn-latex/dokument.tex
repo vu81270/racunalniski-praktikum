@@ -7,6 +7,8 @@
 \usepackage{mlmodern}
 \usepackage{amsthm}
 \usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{latexsym}
 
 
 \theoremstyle{plain}
@@ -53,8 +55,8 @@
     
     \begin{definicija}
         
-        Slučajna spremenljivka $\tau$ na verjetnostnem prostoru ?? z vrednostmi v ??
-        je čas ustavljanja glede na filtracijo ??, če velja ??.
+        Slučajna spremenljivka $\tau$ na verjetnostnem prostoru $(\Omega,\f,\mathrm{P})$ z vrednostmi v $ \mathbb{R}^+ $
+        je čas ustavljanja glede na filtracijo $ (\f_{t})_{t \in T} $, če velja $\forall t \in T : \lbrace \tau \leq t\rbrace \in \f_{t}$.
         
     \end{definicija}
     
@@ -62,13 +64,13 @@
     
     \begin{izrek}
         \label{thm:stopped_brownian}
-        Naj bo $\{B_t\}_{t \geq 0}$?? (standardno) Brownovo gibanje, ?? čas ustavljanja glede na 
-        ?? in naj bo ??.
+        Naj bo $\{B_t\}_{t \geq 0}$ (standardno) Brownovo gibanje, $\tau$ čas ustavljanja glede na 
+        $(\f_t)_{t\geq 0}$ in naj bo $P \lbrack \tau < \infty \rbrack = 1$.
         Potem je tudi proces:
         \[
         \hat{B} := \{B_{T+t} - B_T \mid t \geq 0\}
         \]
-        (standardno) Brownovo gibanje in neodvisen od ??.
+        (standardno) Brownovo gibanje in neodvisen od $\f_T$.
     \end{izrek}
     
     \bibliographystyle{plain}
